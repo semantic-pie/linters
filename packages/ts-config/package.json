@@ -1,0 +1,25 @@
+{
+    "name": "@semantic-pie/ts-config",
+    "version": "1.0.0",
+    "description": "Semantic Pie TypeScript config",
+    "author": "whi5k3y <kochurko.dev@outlook.com>",
+    "homepage": "https://github.com/semantic-pie/linters#readme",
+    "license": "MIT",
+    "keywords": [
+        "typescript",
+        "config"
+    ],
+    "files": [
+        "tsconfig.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/semantic-pie/linters.git"
+    },
+    "bugs": {
+        "url": "https://github.com/semantic-pie/linters/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

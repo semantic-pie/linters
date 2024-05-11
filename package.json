@@ -1,0 +1,38 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "lint:js": "eslint --ext .js,.jsx,.ts,.tsx . --fix",
+        "lint:styles": "stylelint '**/*.{css,scss}'",
+        "lint:other": "npm run prettier -- --check",
+        "lint": "npm run lint:js && npm run lint:other && npm run lint:styles",
+        "prettier": "prettier '**/*.{js,md,yaml,yml,json}'"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@semantic-pie/eslint-config": "^1.0.4",
+        "@semantic-pie/prettier-config": "^1.0.1",
+        "@semantic-pie/stylelint-config": "^1.0.0",
+        "eslint": "^8.57.0",
+        "husky": "^9.0.11",
+        "lerna": "^8.1.2",
+        "nano-staged": "^0.8.0",
+        "prettier": "^3.2.5",
+        "stylelint": "^16.5.0"
+    },
+    "nano-staged": {
+        "*.{js,ts}": [
+            "eslint --fix --quiet --report-unused-disable-directives"
+        ],
+        "*.{css,scss}": [
+            "stylelint --fix --quiet --report-needless-disables"
+        ],
+        "*.{js,md,yaml,yml,json}": [
+            "prettier --write"
+        ]
+    }
+}

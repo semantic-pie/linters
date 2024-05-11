@@ -1,0 +1,7 @@
+# IDE settings
+.idea
+.vscode
+
+.nx
+
+node_modules/

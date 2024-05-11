@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm install --save-dev eslint @gravity-ui/eslint-config
+npm install --save-dev eslint @semantic-pie/eslint-config
 ```
 
 ## Usage

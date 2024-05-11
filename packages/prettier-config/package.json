@@ -1,0 +1,28 @@
+{
+    "name": "@semantic-pie/prettier-config",
+    "version": "1.0.1",
+    "description": "Semantic Pie Prettier config.",
+    "author": "whi5k3y <kochurko.dev@outlook.com>",
+    "homepage": "https://github.com/semantic-pie/linters#readme",
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "config"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/semantic-pie/linters.git"
+    },
+    "bugs": {
+        "url": "https://github.com/semantic-pie/linters/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "prettier": "*"
+    }
+}

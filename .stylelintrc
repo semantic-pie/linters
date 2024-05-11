@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "@semantic-pie/stylelint-config",
+        "@semantic-pie/stylelint-config/order"
+    ]
+}

@@ -1,0 +1,73 @@
+/*
+    index.js & order.js lint:
+
+    packages/stylelint-config/tests/test.scss
+    4:12    ✖  Unexpected named color "blue"                         color-named
+    5:5     ✖  Expected "font-size" to come before "color"           order/properties-order
+    5:5     ✖  Expected an empty line before property "font-size"    order/properties-order
+    6:5     ✖  Expected "display" to come before "font-size"         order/properties-order
+    6:5     ✖  Expected an empty line before property "display"      order/properties-order
+    12:5    ✖  Expected "font-family" to come before "background"    order/properties-order
+    12:5    ✖  Expected an empty line before property "font-family"  order/properties-order
+    16:12   ✖  Unexpected named color "purple"                       color-named
+*/
+/*$color-primary: #ff0000;
+
+.foo {
+    color: blue;
+    font-size: 16px;
+    display: flex;
+}
+
+.bar {
+    color: #ff00ff;
+    background: linear-gradient(to top, #000, #fff);
+    font-family: Arial, sans-serif;
+}
+
+#baz {
+    color: purple;
+}
+
+* {
+    margin: 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}*/
+
+.foo {
+    display: flex;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    color: rgb(0, 0, 255);
+}
+
+.bar {
+    background: linear-gradient(to top, #000, #fff);
+}
+
+#baz {
+    color: #ff00ff;
+}
+
+* {
+    margin: 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

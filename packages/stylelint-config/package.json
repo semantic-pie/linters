@@ -1,0 +1,43 @@
+{
+    "name": "@semantic-pie/stylelint-config",
+    "version": "1.0.0",
+    "description": "Semantic Pie Stylelint config, following our styleguide",
+    "author": "whi5k3y <kochurko.dev@outlook.com>",
+    "homepage": "https://github.com/semantic-pie/linters#readme",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "prettier.js",
+        "order.js"
+    ],
+    "keywords": [
+        "stylelint",
+        "config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/semantic-pie/linters.git"
+    },
+    "bugs": {
+        "url": "https://github.com/semantic-pie/linters/issues"
+    },
+    "dependencies": {
+        "postcss-scss": "^4.0.9",
+        "stylelint-order": "^6.0.4",
+        "stylelint-prettier": "^5.0.0",
+        "stylelint-scss": "^6.3.0"
+    },
+    "peerDependencies": {
+        "postcss": "^8.0.0",
+        "prettier": "^3.0.0",
+        "stylelint": "^16.0.0"
+    },
+    "peerDependenciesMeta": {
+        "prettier": {
+            "optional": true
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

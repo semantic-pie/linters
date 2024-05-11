@@ -1,6 +1,6 @@
 {
     "name": "@semantic-pie/eslint-config",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Semantic Pie ESLint config.",
     "author": "whi5k3y <kochurkovasiliy@gmail.com>",
     "homepage": "https://github.com/semantic-pie/linters#readme",

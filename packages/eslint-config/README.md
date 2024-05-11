@@ -66,3 +66,17 @@ module.exports = {
     root: true,
 }
 ```
+
+### A11y
+
+If you want to spot accessibility issues, extend root config with the additional rules:
+
+```
+module.exports = {
+    extends: [
+        '@semantic-pie/eslint-config',
+        '@semantic-pie/eslint-config/a11y'
+    ],
+    root: true,
+}
+```

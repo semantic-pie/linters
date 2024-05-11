@@ -1,6 +1,6 @@
 {
     "name": "@semantic-pie/stylelint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Semantic Pie Stylelint config, following our styleguide",
     "author": "whi5k3y <kochurko.dev@outlook.com>",
     "homepage": "https://github.com/semantic-pie/linters#readme",
